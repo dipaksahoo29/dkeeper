@@ -1,8 +1,8 @@
 {
+  "homepage": "http://dipaksahoo29.github.io/dkeeper",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://dipaksahoo29.github.io/dkeeper",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
@@ -14,12 +14,12 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"    
   },
   "eslintConfig": {
     "extends": "react-app"
